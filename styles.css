@@ -24,6 +24,12 @@ header, footer {
   position: relative;
 }
 
+.container {
+  display: flex;
+  transition: margin-left 0.3s;
+  min-height: 100vh;
+}
+
 .main-content {
   display: flex; /* Make the main content a row to align sections and calendar side by side */
   flex: 1;
