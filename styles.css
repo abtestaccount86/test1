@@ -15,25 +15,19 @@ header, footer {
 }
 
 .sidebar {
-  display: block;
   width: 200px;
   height: 100vh;
   background-color: #5b5b5b;
   color: white;
   padding: 10px 15px;
-  position: relative;
 }
 
 .container {
   display: flex;
-  transition: margin-left 0.3s;
   min-height: 100vh;
 }
 
 .main-content {
-  display: flex; /* Make the main content a row to align sections and calendar side by side */
   flex: 1;
-  height: 600px;
   padding: 5px;
-  align-items: flex-start; /* Align items to the top */
 }
