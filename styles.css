@@ -22,7 +22,7 @@ header, footer {
   padding: 10px 15px;
 }
 
-.sidebar header {
+.sidebar h2 {
   font-size: 1.5em;
   text-decoration: underline;
   margin-bottom: 5px;
