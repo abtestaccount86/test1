@@ -24,3 +24,10 @@ header, footer {
   position: relative;
 }
 
+.main-content {
+  display: flex; /* Make the main content a row to align sections and calendar side by side */
+  flex: 1;
+  height: 600px;
+  padding: 5px;
+  align-items: flex-start; /* Align items to the top */
+}
